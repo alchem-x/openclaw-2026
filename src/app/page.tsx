@@ -67,8 +67,13 @@ export default function Home() {
                   style={{ animationDelay: `${i * 0.1 + 0.2}s` }}
                 >
                   <div className="flex items-center gap-5">
-                    <div className={`w-10 h-10 rounded-xl bg-gradient-to-br ${item.color} flex items-center justify-center shadow-md`}>
-                      <span className="text-white font-bold text-lg">{item.id}</span>
+                    <div className="flex items-center gap-1.5">
+                      {[0, 1, 2].map((j) => (
+                        <div 
+                          key={j} 
+                          className={`w-1.5 h-1.5 rounded-full bg-gradient-to-r ${item.color}`}
+                        />
+                      ))}
                     </div>
                     <span className="text-xl font-semibold text-[#2d3436]">{t(item.titleKey)}</span>
                   </div>
