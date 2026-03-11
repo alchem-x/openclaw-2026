@@ -7,10 +7,10 @@ import { ArrowRight } from "lucide-react";
 import LanguageSwitcher from "./components/LanguageSwitcher";
 
 const menuItems = [
-  { id: 1, titleKey: "puzzle.title", href: "/puzzle", color: "from-[#ff6b6b] to-[#ffa502]" },
-  { id: 2, titleKey: "capabilities.title", href: "/capabilities", color: "from-[#ffa502] to-[#20bf6b]" },
-  { id: 3, titleKey: "principle.title", href: "/principle", color: "from-[#20bf6b] to-[#4dabf7]" },
-  { id: 4, titleKey: "whatWeCanDo.title", href: "/what-we-can-do", color: "from-[#4dabf7] to-[#9775fa]" },
+  { id: 1, titleKey: "puzzle.title", href: "/openclaw-puzzle", color: "from-[#ff6b6b] to-[#ffa502]" },
+  { id: 2, titleKey: "capabilities.title", href: "/openclaw-capabilities", color: "from-[#ffa502] to-[#20bf6b]" },
+  { id: 3, titleKey: "principle.title", href: "/openclaw-principle", color: "from-[#20bf6b] to-[#4dabf7]" },
+  { id: 4, titleKey: "open-claw-and-us.title", href: "/openclaw-and-us", color: "from-[#4dabf7] to-[#9775fa]" },
   { id: 5, titleKey: "ending.title", href: "/ending", color: "from-[#9775fa] to-[#ff6b6b]" },
 ];
 

@@ -6,7 +6,7 @@ import Link from "next/link";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import LanguageSwitcher from "../components/LanguageSwitcher";
 
-export default function Ending() {
+export default function OpenclawPuzzle() {
   const { t } = useI18n();
   const [mounted, setMounted] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -25,17 +25,17 @@ export default function Ending() {
       <div className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white/90 backdrop-blur-md shadow-md' : ''}`}>
         <div className="max-w-7xl mx-auto px-8 h-16 flex items-center justify-between">
           <Link 
-            href="/openclaw-and-us"
+            href="/"
             className="flex items-center gap-2 px-4 py-2 rounded-full bg-white shadow-md text-[#636e72] hover:shadow-lg transition-all"
           >
             <ArrowLeft width="20" height="20" />
-            <span>{t('common.prev')}</span>
+            <span>{t('common.back')}</span>
           </Link>
           <Link 
-            href="/"
-            className="flex items-center gap-2 px-6 py-2 rounded-full bg-gradient-to-r from-[#9775fa] to-[#ff6b6b] text-white font-medium shadow-lg hover:shadow-xl transition-all"
+            href="/openclaw-capabilities"
+            className="flex items-center gap-2 px-6 py-2 rounded-full bg-gradient-to-r from-[#ff6b6b] to-[#ffa502] text-white font-medium shadow-lg hover:shadow-xl transition-all"
           >
-            <span>{t('common.back')}</span>
+            <span>{t('common.next')}</span>
             <ArrowRight width="20" height="20" />
           </Link>
         </div>
@@ -49,14 +49,14 @@ export default function Ending() {
             <div className="inline-flex items-center justify-center w-20 h-20 mb-6">
               <span className="text-5xl animate-float">🦞</span>
             </div>
-            <span className="inline-block px-4 py-1 rounded-full bg-[#9775fa]/10 text-[#9775fa] text-sm font-medium mb-4">
-              05
+            <span className="inline-block px-4 py-1 rounded-full bg-[#ff6b6b]/10 text-[#ff6b6b] text-sm font-medium mb-4">
+              01
             </span>
             <h1 className="text-4xl md:text-6xl font-bold font-display mb-4">
-              <span className="text-[#9775fa]">{t('ending.title')}</span>
+              {t('puzzle.title')}
             </h1>
             <p className="text-xl text-[#636e72] max-w-xl mx-auto">
-              {t('ending.subtitle')}
+              {t('puzzle.subtitle')}
             </p>
           </div>
         </main>

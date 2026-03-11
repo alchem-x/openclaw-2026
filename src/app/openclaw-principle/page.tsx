@@ -6,7 +6,7 @@ import Link from "next/link";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import LanguageSwitcher from "../components/LanguageSwitcher";
 
-export default function WhatWeCanDo() {
+export default function OpenclawPrinciple() {
   const { t } = useI18n();
   const [mounted, setMounted] = useState(false);
 
@@ -23,28 +23,28 @@ export default function WhatWeCanDo() {
             <div className="inline-flex items-center justify-center w-20 h-20 mb-6">
               <span className="text-5xl animate-float">🦞</span>
             </div>
-            <span className="inline-block px-4 py-1 rounded-full bg-[#4dabf7]/10 text-[#4dabf7] text-sm font-medium mb-4">
-              04
+            <span className="inline-block px-4 py-1 rounded-full bg-[#20bf6b]/10 text-[#20bf6b] text-sm font-medium mb-4">
+              03
             </span>
             <h1 className="text-4xl md:text-6xl font-bold font-display mb-4">
-              {t('whatWeCanDo.title').split('我们')[0]}<span className="text-[#4dabf7]">我们</span>{t('whatWeCanDo.title').split('我们')[1]}
+              {t('principle.title').split('OpenClaw')[0]}<span className="text-[#20bf6b]">OpenClaw</span>{t('principle.title').split('OpenClaw')[1]}
             </h1>
             <p className="text-xl text-[#636e72] max-w-xl mx-auto">
-              {t('whatWeCanDo.subtitle')}
+              {t('principle.subtitle')}
             </p>
           </div>
 
           <div className="flex items-center justify-between w-full max-w-2xl mt-12">
             <Link 
-              href="/principle"
+              href="/openclaw-capabilities"
               className="flex items-center gap-2 px-6 py-3 rounded-full bg-white shadow-md text-[#636e72] hover:shadow-lg transition-all"
             >
               <ArrowLeft width="20" height="20" />
               <span>{t('common.prev')}</span>
             </Link>
             <Link 
-              href="/ending"
-              className="flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-[#4dabf7] to-[#9775fa] text-white font-medium shadow-lg hover:shadow-xl transition-all"
+              href="/openclaw-and-us"
+              className="flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-[#20bf6b] to-[#4dabf7] text-white font-medium shadow-lg hover:shadow-xl transition-all"
             >
               <span>{t('common.next')}</span>
               <ArrowRight width="20" height="20" />

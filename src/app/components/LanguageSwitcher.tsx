@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { useI18n } from "../i18n";
 
 const languages = [
@@ -10,9 +11,18 @@ const languages = [
 
 export default function LanguageSwitcher() {
   const { locale, setLocale } = useI18n();
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
-    <div className="fixed top-4 right-4 z-50">
+    <div className={`fixed top-4 right-4 z-[60] transition-all duration-300 ${scrolled ? 'top-20' : ''}`}>
       <select
         value={locale}
         onChange={(e) => setLocale(e.target.value as any)}
