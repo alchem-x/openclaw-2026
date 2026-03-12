@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
   --bg-primary: #fff9f5;
@@ -32,30 +32,60 @@ body {
   font-family: 'DM Sans', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Space Grotesk', sans-serif;
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0px) rotate(0deg); }
-  50% { transform: translateY(-15px) rotate(5deg); }
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(5deg);
+  }
 }
 
 @keyframes bounce-in {
-  0% { opacity: 0; transform: scale(0.3); }
-  50% { transform: scale(1.05); }
-  70% { transform: scale(0.9); }
-  100% { opacity: 1; transform: scale(1); }
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 @keyframes fade-up {
-  from { opacity: 0; transform: translateY(30px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes shimmer {
-  0% { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
 }
 
 .animate-float {
@@ -70,12 +100,24 @@ h1, h2, h3, h4, h5, h6 {
   animation: fade-up 0.8s ease-out forwards;
 }
 
-.delay-100 { animation-delay: 0.1s; }
-.delay-200 { animation-delay: 0.2s; }
-.delay-300 { animation-delay: 0.3s; }
-.delay-400 { animation-delay: 0.4s; }
-.delay-500 { animation-delay: 0.5s; }
-.delay-600 { animation-delay: 0.6s; }
+.delay-100 {
+  animation-delay: 0.1s;
+}
+.delay-200 {
+  animation-delay: 0.2s;
+}
+.delay-300 {
+  animation-delay: 0.3s;
+}
+.delay-400 {
+  animation-delay: 0.4s;
+}
+.delay-500 {
+  animation-delay: 0.5s;
+}
+.delay-600 {
+  animation-delay: 0.6s;
+}
 
 .font-display {
   font-family: 'Space Grotesk', sans-serif;
@@ -99,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wave-bg {
-  background: 
+  background:
     radial-gradient(ellipse at 20% 30%, rgba(255, 165, 2, 0.15) 0%, transparent 50%),
     radial-gradient(ellipse at 80% 70%, rgba(255, 107, 107, 0.1) 0%, transparent 50%),
     radial-gradient(ellipse at 50% 50%, rgba(32, 191, 107, 0.08) 0%, transparent 60%);
@@ -127,15 +169,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @keyframes puzzle-glow {
-  0%, 100% { 
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  0%,
+  100% {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
-  50% { 
-    box-shadow: 0 8px 24px rgba(255, 107, 107, 0.3), 0 0 0 4px rgba(255, 107, 107, 0.1); 
+  50% {
+    box-shadow:
+      0 8px 24px rgba(255, 107, 107, 0.3),
+      0 0 0 4px rgba(255, 107, 107, 0.1);
   }
 }
 
 .puzzle-piece:hover {
   transform: translateY(-4px) scale(1.02);
   animation: puzzle-glow 2s ease-in-out infinite;
+}
+
+/* Masonry Grid Layout */
+.masonry-grid {
+  column-count: 2;
+  column-gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .masonry-grid {
+    column-count: 1;
+  }
+}
+
+.masonry-item {
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  width: 100%;
 }
