@@ -384,7 +384,7 @@ ai-agent-and-us:
 
     - title: UI is PreAI
       author: 行业观点
-      year: '2025'
+      year: '2026'
       quote: 传统UI是为人类设计的接口，但在AI时代，自然语言或许是最好的接口。
       tags: ['UI/UX', '趋势']
 
@@ -430,21 +430,21 @@ ai-agent-and-us:
 
     - title: 山姆·奥特曼：从GDP时代迈向极度丰裕与通缩
       author: Sam Altman (OpenAI)
-      year: '2025'
+      year: '2026'
       quote: 名义GDP成为失效的经济指标，社会需重新构想"非稀缺"的制度。AGI已近在咫尺，而ASI仅剩几年之遥。
       tags: ['经济', 'AGI']
-      link: 'https://www.youtube.com/watch?v=-9K6uWysyJQ'
+      link: 'https://www.youtube.com/watch?v=IiV9q73YUxI'
 
     - title: Bash is All You Need
       author: Thariq Shihipar (Anthropic)
-      year: '2025'
+      year: '2026'
       quote: 与其为Agent设计成千上万个专用API，不如赋予其终端访问能力。Bash与文件系统的组合即可构成完备的通用计算能力——这既是OpenClaw架构的核心哲学，或许也解释了当今Agent类编程工具广泛采用TUI的深层原因。
       tags: ['技术架构', 'Agent']
       link: 'https://www.reddit.com/r/ClaudeAI/comments/1q4yig7/claude_agent_sdk_full_workshop_thariq_shihipar/'
 
     - title: Anthropic开发流程：提示词即工作
       author: Anthropic Team
-      year: '2025'
+      year: '2026'
       quote: 代码是输出，提示词才是工作。我们的工程团队不再写传统PRD，直接与Claude对话描述需求、迭代设计、生成代码，从想法到原型缩短10倍。
       tags: ['开发流程', '产业实践']
       link: 'https://www.youtube.com/watch?v=julbw1JuAz0'
@@ -456,7 +456,7 @@ ai-agent-and-us:
 
     - title: 以AI为中心：数据+工作流
       author: 行业趋势
-      year: '2025'
+      year: '2026'
       quote: 从以数据为中心到以AI为中心的转变。不是把AI嵌入现有系统，而是围绕AI重新设计数据架构和工作流。这是范式转移。
       tags: ['架构', '范式转移']
 
