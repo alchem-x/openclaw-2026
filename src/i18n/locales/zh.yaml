@@ -377,7 +377,9 @@ ai-agent-and-us:
     - title: Martin Fowler：AI重塑软件
       author: Martin Fowler
       year: '2024'
-      quote: AI正在改变软件开发的每一个环节：从需求收集、设计、编码、测试到部署。我们需要重新思考软件工程的最佳实践，拥抱AI-native的开发范式。
+      quote: >
+        AI让程序员不再需要手工编码，但AI幻觉、行为不可预测、调试困难等问题导致系统不确定性增加。Agentic Engineering是软件开发的银弹吗？
+        复杂度被转移到了哪里——提示工程、代码理解、架构设计，还是意图对齐？
       tags: ['软件工程', '产业变革']
 
     - title: UI is PreAI

@@ -69,7 +69,9 @@ export default function OpenclawAndUs() {
             <h1 className="text-4xl md:text-6xl font-bold font-display mb-4 text-black">
               {t('ai-agent-and-us.title')}
             </h1>
-            <p className="text-xl text-[#636e72] max-w-xl mx-auto">{t('ai-agent-and-us.subtitle')}</p>
+            <p className="text-xl text-[#636e72] max-w-xl mx-auto">
+              {t('ai-agent-and-us.subtitle')} ({topics.length})
+            </p>
           </div>
 
           <div

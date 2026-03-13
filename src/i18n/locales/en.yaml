@@ -383,7 +383,9 @@ ai-agent-and-us:
     - title: 'Martin Fowler: AI Reshaping Software'
       author: Martin Fowler
       year: '2024'
-      quote: AI is changing every aspect of software development from requirements gathering, design, coding, testing to deployment. We need to rethink software engineering best practices and embrace AI-native development paradigms.
+      quote: >
+        AI allows programmers to no longer write code manually, but AI hallucinations, unpredictable behavior, and debugging difficulties introduce system uncertainty. Is Agentic Engineering the silver bullet for software development?
+        Where has the complexity shifted—to prompt engineering, code comprehension, architecture design, or intent alignment?
       tags: ['Software Engineering', 'Industry Transformation']
 
     - title: UI is PreAI
