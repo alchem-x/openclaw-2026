@@ -341,9 +341,17 @@ ai-agent-and-us:
   topics:
     - title: 'Wittgenstein: The Limits of Language'
       author: Ludwig Wittgenstein
+      year: '1921-11'
       quote: The limits of my language mean the limits of my world. Language games determine how meaning is produced. When we make AI understand language, are we making it understand the world?
       tags: ['Philosophy', 'Language']
       link: 'https://www.gutenberg.org/ebooks/5740'
+
+    - title: The Bitter Lesson
+      author: Rich Sutton
+      year: '2019-03-13'
+      quote: 70 years of AI research teaches us that general methods leveraging computation ultimately beat human knowledge. We should stop trying to hard-code human knowledge into systems and instead build general methods that discover knowledge through search and learning.
+      tags: ['Methodology', 'AI History']
+      link: 'http://www.incompleteideas.net/IncIdeas/BitterLesson.html'
 
     - title: Zhuangzi's Free and Easy Wandering
       author: Zhuangzi
@@ -386,7 +394,7 @@ ai-agent-and-us:
 
     - title: "Anthropic: AI's Impact on Labor Markets"
       author: Anthropic Research
-      year: '2024'
+      year: '2026-03-05'
       quote: The actual impact of AI on employment remains far below its theoretical potential and has not yet led to systemic increases in unemployment rates.
       tags: ['Labor', 'Industry']
       link: 'https://www.anthropic.com/research/labor-market-impacts'
@@ -398,23 +406,16 @@ ai-agent-and-us:
       tags: ['Trend', 'Prediction']
       link: 'https://shumer.dev/something-big-is-happening'
 
-    - title: The Bitter Lesson
-      author: Rich Sutton
-      year: '2019'
-      quote: 70 years of AI research teaches us that general methods leveraging computation ultimately beat human knowledge. We should stop trying to hard-code human knowledge into systems and instead build general methods that discover knowledge through search and learning.
-      tags: ['Methodology', 'AI History']
-      link: 'http://www.incompleteideas.net/IncIdeas/BitterLesson.html'
-
     - title: 'Language Models are Few-Shot Learners'
       author: OpenAI (GPT-3 Paper)
-      year: '2020'
+      year: '2020-05-28'
       quote: Large-scale language models demonstrate surprising few-shot learning capabilities. Without gradient updates or fine-tuning, models can complete various tasks through text interaction and examples alone.
       tags: ['Technical Insight', 'Few-Shot Learning']
       link: 'https://arxiv.org/abs/2005.14165'
 
     - title: The Law of Leaky Abstractions
       author: Joel Spolsky
-      year: '2002'
+      year: '2002-11-11'
       quote: All non-trivial abstractions leak to some degree. When we treat LLMs as an abstraction for "intelligence," what are its leaks? Are we over-relying on this abstraction? When abstractions leak—when AI fails, hallucinates, or loses control—what should we do?
       tags: ['Software Engineering', 'Abstraction']
       link: 'https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/'

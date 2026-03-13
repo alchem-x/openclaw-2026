@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "PORT=2026 next dev",
     "build": "next build",
+    "build:gh": "NEXT_PUBLIC_BASE_PATH=/openclaw-2026 next build",
     "start": "PORT=2026 next start"
   },
   "dependencies": {

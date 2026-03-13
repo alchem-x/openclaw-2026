@@ -335,13 +335,14 @@ ai-agent-and-us:
   topics:
     - title: 维特根斯坦：语言的边界
       author: Ludwig Wittgenstein
+      year: '1921-11'
       quote: 我的语言的界限意味着我的世界的界限。语言游戏决定了意义的产生方式。当我们让AI理解语言，我们是在让它理解世界吗？
       tags: ['哲学', '语言']
       link: 'https://www.gutenberg.org/ebooks/5740'
 
     - title: 苦涩的教训
       author: Rich Sutton
-      year: '2019'
+      year: '2019-03-13'
       quote: 70年AI研究史告诉我们：利用计算的通用方法最终胜过人类知识。我们应该停止试图将人类知识硬编码进系统，转而构建能够通过搜索和学习发现知识的通用方法。
       tags: ['方法论', 'AI历史']
       link: 'http://www.incompleteideas.net/IncIdeas/BitterLesson.html'
@@ -387,7 +388,7 @@ ai-agent-and-us:
 
     - title: Anthropic：AI对劳动力市场的影响
       author: Anthropic Research
-      year: '2024'
+      year: '2026-03-05'
       quote: AI对就业的实际影响仍远低于其理论潜力，且尚未导致系统性的失业率上升。
       tags: ['劳动力', '产业']
       link: 'https://www.anthropic.com/research/labor-market-impacts'
@@ -401,14 +402,14 @@ ai-agent-and-us:
 
     - title: 语言模型：见微知著的学习者
       author: OpenAI (GPT-3论文)
-      year: '2020'
+      year: '2020-05-28'
       quote: 大规模语言模型展现出令人惊讶的少样本学习能力。在没有梯度更新或微调的情况下，仅通过文本交互和示例，模型就能完成各种任务。
       tags: ['技术洞察', 'Few-Shot Learning']
       link: 'https://arxiv.org/abs/2005.14165'
 
     - title: 抽象泄漏法则
       author: Joel Spolsky
-      year: '2002'
+      year: '2002-11-11'
       quote: 所有重大的抽象机制在某种程度上都会泄漏。当我们把LLM当作"智能"的抽象时，它的漏洞是什么？我们是否过度依赖这个抽象？当抽象泄漏时——当AI出错、幻觉、失控时——我们该怎么办？
       tags: ['软件工程', '抽象']
       link: 'https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/'

@@ -343,9 +343,17 @@ ai-agent-and-us:
   topics:
     - title: '비트겐슈타인: 언어의 경계'
       author: Ludwig Wittgenstein
+      year: '1921-11'
       quote: 내 언어의 한계는 내 세계의 한계를 의미합니다. 언어 게임은 의미가 생성되는 방식을 결정합니다. AI가 언어를 이해하게 할 때 우리는 세계를 이해하게 하는 것일까요?
       tags: ['철학', '언어']
       link: 'https://www.gutenberg.org/ebooks/5740'
+
+    - title: 쓴 교훈
+      author: Rich Sutton
+      year: '2019-03-13'
+      quote: 70년의 AI 연구는 계산을 활용하는 일반적인 방법이 결국 인간 지식을 이긴다는 것을 가르쳐줍니다. 인간 지식을 시스템에 하드코딩하려고 하지 말고 검색과 학습을 통해 지식을 발견하는 일반적인 방법을 구축해야 합니다.
+      tags: ['방법론', 'AI 역사']
+      link: 'http://www.incompleteideas.net/IncIdeas/BitterLesson.html'
 
     - title: 소요유
       author: 장자
@@ -388,7 +396,7 @@ ai-agent-and-us:
 
     - title: 'Anthropic: AI의 노동 시장 영향'
       author: Anthropic Research
-      year: '2024'
+      year: '2026-03-05'
       quote: 고용에 대한 AI의 실제 영향은 여전히 이론적 잠재력보다 훨씬 낮으며, 아직 체계적인 실업률 상승을 초래하지 않았습니다.
       tags: ['노동력', '산업']
       link: 'https://www.anthropic.com/research/labor-market-impacts'
@@ -400,23 +408,16 @@ ai-agent-and-us:
       tags: ['트렌드', '예측']
       link: 'https://shumer.dev/something-big-is-happening'
 
-    - title: 쓴 교훈
-      author: Rich Sutton
-      year: '2019'
-      quote: 70년의 AI 연구는 계산을 활용하는 일반적인 방법이 결국 인간 지식을 이긴다는 것을 가르쳐줍니다. 인간 지식을 시스템에 하드코딩하려고 하지 말고 검색과 학습을 통해 지식을 발견하는 일반적인 방법을 구축해야 합니다.
-      tags: ['방법론', 'AI 역사']
-      link: 'http://www.incompleteideas.net/IncIdeas/BitterLesson.html'
-
     - title: 언어 모델은 적은 샷 학습자
       author: OpenAI (GPT-3 논문)
-      year: '2020'
+      year: '2020-05-28'
       quote: 대규모 언어 모델은 놀라운 적은 샷 학습 능력을 보여줍니다. 그래디언트 업데이트나 미세 조정 없이도 텍스트 상호 작용과 예제만으로 다양한 작업을 완료할 수 있습니다.
       tags: ['기술 통찰', '적은 샷 학습']
       link: 'https://arxiv.org/abs/2005.14165'
 
     - title: 추상 누출 법칙
       author: Joel Spolsky
-      year: '2002'
+      year: '2002-11-11'
       quote: 모든 중요한 추상화 메커니즘은 어느 정도 누출됩니다. LLM을 "지능"의 추상화로 취급할 때 그 누출은 무엇일까요? 우리가 이 추상화에 과도하게 의존하고 있을까요? 추상화가 누출될 때—AI가 실패하거나 환각을 보이거나 통제를 잃을 때—우리는 어떻게 해야 할까요?
       tags: ['소프트웨어 공학', '추상화']
       link: 'https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/'
