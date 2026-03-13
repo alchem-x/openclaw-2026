@@ -448,10 +448,10 @@ ai-agent-and-us:
       tags: ['Technical Architecture', 'Agent']
       link: 'https://www.reddit.com/r/ClaudeAI/comments/1q4yig7/claude_agent_sdk_full_workshop_thariq_shihipar/'
 
-    - title: 'Anthropic Development Process: No More PRDs'
+    - title: 'Anthropic Development Process: Prompting is Work'
       author: Anthropic Team
       year: '2025'
-      quote: Our engineering team no longer writes traditional PRD documents. Directly converse with Claude, describe requirements, iterate designs, generate code. Time from idea to prototype reduced by 10x.
+      quote: Code is output; prompting is work. Our engineering team no longer writes traditional PRDs—directly converse with Claude, describe requirements, iterate designs, generate code, reducing idea-to-prototype time by 10x.
       tags: ['Development Process', 'Industry Practice']
       link: 'https://www.youtube.com/watch?v=julbw1JuAz0'
 

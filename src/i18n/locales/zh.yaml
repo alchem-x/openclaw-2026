@@ -442,10 +442,10 @@ ai-agent-and-us:
       tags: ['技术架构', 'Agent']
       link: 'https://www.reddit.com/r/ClaudeAI/comments/1q4yig7/claude_agent_sdk_full_workshop_thariq_shihipar/'
 
-    - title: Anthropic开发流程：不再需要PRD
+    - title: Anthropic开发流程：提示词即工作
       author: Anthropic Team
       year: '2025'
-      quote: 我们的工程团队已经不再写传统的PRD文档。直接与Claude对话，描述需求，迭代设计，生成代码。从想法到原型的时间缩短了10倍。
+      quote: 代码是输出，提示词才是工作。我们的工程团队不再写传统PRD，直接与Claude对话描述需求、迭代设计、生成代码，从想法到原型缩短10倍。
       tags: ['开发流程', '产业实践']
       link: 'https://www.youtube.com/watch?v=julbw1JuAz0'
 
