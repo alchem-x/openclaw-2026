@@ -323,6 +323,8 @@ principle:
     pseudocode: 伪代码示例
     simpleDiagram: 简化流程图
     completeDiagram: 完整执行流程
+    readMore: 拓展资料
+    readMoreDesc: 深入了解 Claude Agent 的工作原理与最佳实践
 
 ai-agent-and-us:
   title: AI Agent与我们

@@ -331,6 +331,8 @@ principle:
     pseudocode: 의사 코드 예제
     simpleDiagram: 단순화된 흐름도
     completeDiagram: 완전한 실행 흐름
+    readMore: 확장 자료
+    readMoreDesc: Claude Agent의 작동 원리와 모범 사례 깊이 있게 알아보기
 
 ai-agent-and-us:
   title: AI Agent와 우리

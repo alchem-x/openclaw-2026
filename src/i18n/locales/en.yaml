@@ -329,6 +329,8 @@ principle:
     pseudocode: Pseudocode Example
     simpleDiagram: Simplified Flow Diagram
     completeDiagram: Complete Execution Flow
+    readMore: Further Reading
+    readMoreDesc: Deep dive into Claude Agent's working principles and best practices
 
 ai-agent-and-us:
   title: AI Agent and Us
